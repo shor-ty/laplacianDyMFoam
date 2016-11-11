@@ -6,10 +6,12 @@
 
 * I did not check the solver in detail but everything seems to be fine
 
+### OpenFOAM Version ###
+* 4.x
+
 ### Compilation ###
 
 * Clone the repository using git
 * Load your OpenFOAM-4.x environment
 * Build it by excecuting wmake
 * Done
-
