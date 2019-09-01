@@ -15,7 +15,7 @@
 
 * Load your OpenFOAM environment
 * Go to your solver folder and into basic
-> cd $FOAM\_SOLVERS/basics
+> cd $FOAM\_SOLVERS/basic
 * Clone the repository
 > git clone https://shor-ty@bitbucket.org/shor-ty/laplaciandymfoam.git laplacianDyMFoam
 * Enter to the repository
