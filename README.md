@@ -1,27 +1,51 @@
 ### README ###
 
-* This solver is used for a tutorial that Holzmann CFD made namely ACMIBoundaryWithHeatTransfer
+* This solver is used for a tutorial created by Tobias Holzmann namely _ACMIHeatTransfer_
 
 * The solver was derived from the basic laplacianFoam by Nico Speelman
 
-* Holzmann CFD did not re-check the solver but everything seems to work fine
+* Tobias did not re-check the solver but everything seems to work fine
 
 ### OpenFOAM Version ###
-* 4.x
-* 5.x
-* 6.x
+* The application is built and tested for the OpenFOAM Foundation versions:
+  * 4.x
+  * 5.x
+  * 6.x
+  * 7.x
+
+* The master branch contains the actual version (7.x)
 
 ### Compilation ###
 
 * Load your OpenFOAM environment
 * Go to your solver folder and into basic
-> cd $FOAM\_SOLVERS/basic
+
+```bash
+cd $FOAM_SOLVERS/basic
+```
+
 * Clone the repository
-> git clone https://shor-ty@bitbucket.org/shor-ty/laplaciandymfoam.git laplacianDyMFoam
+
+```bash
+git clone git@github.com:shor-ty/laplacianDyMFoam.git
+```
+
 * Enter to the repository
-> cd laplacianDyMFoam
-* Switch to your version; (X) stands for your version
-> git checkout OpenFOAM-(X).x
+
+```bash
+cd laplacianDyMFoam
+```
+
+* Switch to the version of your OpenFOAM installation:
+
+```bash
+git checkout OpenFOAM <TAB> <TAB>
+```
+
 * Build the solver
-> wmake
+
+```bash
+wmake
+```
+
 * Done
