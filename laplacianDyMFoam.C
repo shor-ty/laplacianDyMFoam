@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 
     Info<< "\nCalculating temperature distribution\n" << endl;
 
-    while (simple.loop(runTime))
+    while (simple.loop())
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
