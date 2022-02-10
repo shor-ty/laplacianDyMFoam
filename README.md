@@ -12,6 +12,10 @@
   * 5.x
   * 6.x
   * 7.x
+  * v8
+  * v9
+  * v2106
+  * v2112
 
 * The master branch contains the actual version (7.x)
 
