@@ -31,7 +31,5 @@
 
     Info<< "Reading diffusivity DT\n" << endl;
 
-    dimensionedScalar DT
-    (
-        transportProperties.lookup("DT")
-    );
+    //dimensionedScalar DT = transportProperties.lookupEntry("DT");
+    dimensionedScalar DT ("DT", transportProperties);
